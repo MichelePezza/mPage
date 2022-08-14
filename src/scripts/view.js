@@ -731,6 +731,9 @@ let View = {
     styles.push('.sticky-header #page-menu-list li { border-color: ' + colors.border + '; }');
     styles.push('.sidebar #menu-container { border-color: ' + colors.border + '; }');
     styles.push('.sidebar #page-menu { border-color: ' + colors.border + '; }');
+    styles.push('.sticky-header #page-menu { border-color: ' + colors.border + '; }');
+    styles.push('.sidebar #page-container { border-color: ' + colors.border + '; }');
+    styles.push('.sticky-header #page-container { border-color: ' + colors.border + '; }');
     styles.push('#page-menu-list li a { color: ' + colors.link + '; }');
     styles.push('#page-menu-list li.active a { color: ' + colors.misc + '; }');
     styles.push('#action-menu { color: ' + colors.misc + '; }');
